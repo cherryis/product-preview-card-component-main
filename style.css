@@ -1,0 +1,27 @@
+body {
+    background-color: hsl(30, 38%, 92%);
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    justify-content: center;
+}
+.container {
+
+    width: 50%;
+    border-radius: 10px;
+    background-color: hsl(0, 0%, 100%);
+}
+img {
+    border-radius: 10px 0px 0px 10px;
+    height: auto;
+    width: 50%;
+    float: left;
+}
+h1 {
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+}
+
+
+button {
+    background-color: hsl(158, 36%, 37%);
+}
