@@ -1,42 +1,35 @@
 body {
   background-color: hsl(30, 38%, 92%);
-  font-size: 14px;
-  font-family: "Montserrat", sans-serif;
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   flex-direction: column;
   height: 100vh;
-  width: 100%;
-}
-.container {
-  border-radius: 10px;
-  background-color: hsl(0, 0%, 100%);
-  /* margin: 150px 0px; */
-  width: 50%;
-  height: 50%;
-  /* display: flex; */
-}
-.product-image {
-  background-image: url("./images/image-product-desktop.jpg");
-  width: 100%;
-  height: 100%;
+  margin: 0;
+  /* width: 100vw; */
 }
 .flex-container {
-    display: flex;
-  }
-/* img {
-    border-radius: 10px 0px 0px 10px;
-    float: left;
-    height: 500px;
-    width: 50%;
-} */
+  background-color: white;
+  border-radius: 3%;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.product-image,
+.description {
+  width: 300px;
+}
+.product-image img {
+  border-radius: 3% 0 0 3%;
+  height: 100%;
+  width: 100%;
+}
 .description {
   color: hsl(228, 12%, 48%);
-  float: right;
-  width: 40%;
-  height: 100%;
-  margin-right: 5%;
+  font-family: "Montserrat", sans-serif;
+  text-align: left;
+  margin: 30px;
+  width: 240px;
 }
 h1 {
   color: hsl(212, 21%, 14%);
@@ -45,8 +38,10 @@ h1 {
 }
 
 h3 {
+  font-weight: 400;
   letter-spacing: 3px;
 }
+/* ------ price -------------- */
 
 .price {
   display: flex;
@@ -59,7 +54,7 @@ h3 {
   margin-left: 10px;
   text-decoration-line: line-through;
 }
-
+/* ------ button cart -------------- */
 button {
   background-color: hsl(158, 36%, 37%);
   border: none;
@@ -78,44 +73,16 @@ button img {
   padding-right: 5px;
 }
 .footer {
-  font-size: 11px;
-  text-align: center;
+  margin: 30px;
 }
+@media (max-width: 760px) {
+  .flex-container {
+    flex-direction: column;
+    margin: 50% auto 20%;
+  }
 
-.footer a {
-  color: hsl(228, 45%, 44%);
-}
-@media screen and (max-width: 760px) {
-  .product-image {
-    background-image: url("./images/image-product-mobile.jpg");
-    width: 100%;
-    height: 100%;
-  }
-  .container {
+  .product-image img {
+    /* background-image: url("./images/image-product-mobile.jpg"); */
     border-radius: 10px 10px 0 0;
-    background-color: hsl(0, 0%, 100%);
-    margin: 150px 0px;
-    height: auto;
-    width: 100%;
   }
-  /* img {
-        background-image: url(./images/image-product-mobile.jpg);
-        border-radius: 10px 10px 0 0;
-        width: 100%;
-         display: block; 
-        align-items: center;
-        justify-content: center; 
-    } */
-  .description {
-    color: hsl(228, 12%, 48%);
-    float: none;
-    /* width: 40%; 
-        width: 100%; */
-    height: 100%;
-  }
-}
-@media screen and (min-width: 761px) {
-.container {
-    display: flex;
-}
 }
