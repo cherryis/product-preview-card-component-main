@@ -28,8 +28,11 @@ Users should be able to:
 ### Screenshot
 
 ![](./screenshot.jpg)
+-Desktop Version
+![image]![image](https://user-images.githubusercontent.com/59629395/202836637-447123c8-1008-4ba5-a6dd-b884ad5b78ad.png)
+-Mobile Version
+![image](https://user-images.githubusercontent.com/59629395/202836675-dd0de2ef-f002-41ed-a7f9-7447c39f5280.png)
 
-![image](https://user-images.githubusercontent.com/59629395/201236818-7acc49ba-cdb3-4f4a-bf28-b5a58e3c5b73.png)
 
 ### Links
 
@@ -42,7 +45,7 @@ Users should be able to:
 
 - Semantic HTML5 markup
 - CSS custom properties
-- Flexbox
+- Flexbox, @media for responsive design
 - CSS Grid
 - Mobile-first workflow
 - [Styled Components](https://styled-components.com/) - For styles
@@ -51,23 +54,9 @@ Users should be able to:
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+It was hard to learn @media query and flexbox. This 1st project of responsive design took over a week to play. 
 
-To see how you can add code snippets, see below:
 
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
 
 If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
 
