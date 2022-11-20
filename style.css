@@ -62,6 +62,7 @@ button {
   font-size: 16px;
   padding: 10px 20px;
   color: hsl(0, 0%, 100%);
+  width: 240px;
 }
 button:hover {
   background-color: rgb(6, 107, 65);
